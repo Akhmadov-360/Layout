@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #F5F7FA;
+    padding: 10px 0 38px 0;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header .menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .menu ul {
+    display: flex;
+    padding: 0;
+}
+
+header .menu ul li {
+    list-style: none;
+    margin-right: 22px;
+}
+
+header .menu ul li a {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+    color: #4D4D4D;
+    text-decoration: none;
+    transition: 0.3s linear;
+}
+
+header .menu ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.brand a {
+    font-family: 'Inter';
+    color: #263238;
+    text-decoration: none;
+    width: 78px;
+    height: 14px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.brand img {
+    margin-right: 5px;
+}
+
+.all-btn {
+    width: 133.25px;
+    height: 36.49px;
+    border-radius: 3px;
+    background: #4CAF4F;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.all-btn_2 {
+    width: 89.55px;
+    height: 36.49px;
+    border-radius: 3px;
+    background: #4CAF4F;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 15px;
+}
+header .main-section {
+    display: flex;
+    width: 100%;
+    padding-top: 52px;
+}
+
+header .left-side {
+    padding-top: 100px;
+    width: 60%;
+}
+
+header .left-side .main-text {
+    font-size: 44.55px;
+    line-height: 53px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #717171;
+}
+
+header .left-side .main-text span {
+    color:#4CAF4F;
+}
+
+header .left-side .comment {
+    font-family: "Inter";
+    font-size: 11.14px;
+    font-weight: 400;
+    line-height: 16.71px;
+    color: #717171;
+    margin-top: 15px;
+}
+
+header .right-side {
+    width: 40%;
+}
+
+header .right-side img {
+    width: 272px;
+    height: 283px;
+}
+
