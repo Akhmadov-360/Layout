@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.bitcoin-icons--search-outline {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='black'%3E%3Ccircle cx='11' cy='11' r='5.5'/%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='m15 15l4 4'/%3E%3C/g%3E%3C/svg%3E");
+    cursor: pointer;
+}
+
+.hugeicons--shopping-basket-01 {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M3.873 17.02L2.669 9.84c-.182-1.086-.273-1.628.019-1.984c.291-.356.827-.356 1.898-.356h14.828c1.071 0 1.607 0 1.898.356c.292.356.2.898.019 1.984l-1.204 7.18c-.399 2.38-.598 3.569-1.413 4.275C17.9 22 16.726 22 14.378 22H9.622c-2.348 0-3.522 0-4.336-.706c-.815-.705-1.014-1.895-1.413-4.275M17.5 7.5a5.5 5.5 0 1 0-11 0' color='black'/%3E%3C/svg%3E");
+    cursor: pointer;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 560px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.slide-1 {
+    background-image: url('./img/lalaland.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide-2 {
+    background-image: url('./img/Drive.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide-3 {
+    background-image: url('./img/interstellar.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide-4 {
+    background-image: url('./img/horizontal_poster_1x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide-5 {
+    background-image: url('./img/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide-6 {
+    background-image: url('./img/tenet.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    grid-template-areas: 
+    'header header header'
+    'main main main';
+    grid-template-rows: 100px 100%;
+}
+
+header {
+    grid-area: header;
+    background-color: #FFFFFF;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #FFFFFF;
+    align-content: center;
+}
+
+.logo img {
+    width: 35px;
+    height: 25px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.links a {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-btn p {
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 833px) and (min-width: 0px) {
+    .header-top a {
+        display: none;
+    }
+
+    .header-top {
+        justify-content: space-between;
+    }
+}
+
+.section-1 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    align-content: center;
+}
+
+.section-1 button {
+    border: 1px solid #0066CC;
+    border-radius: 24px;
+    color: #0066CC;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding: 10px 20px 10px 20px;
+    transition: 0.25s all;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.section-1 button:hover {
+    background-color: #0066CC;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 735px) and (min-width: 0px) {
+    .first-img img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .section-1 {
+        height: 350px;
+    }
+}
+
+.section-2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.section-2 h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.section-2 p {
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 0px;
+    padding: 0;
+}
+
+.section-2 button {
+    border: 1px solid #0066CC;
+    border-radius: 24px;
+    color: #0066CC;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding: 10px 20px 10px 20px;
+    transition: 0.25s all;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.section-2 button:hover {
+    background-color: #0066CC;
+    color: #FFFFFF;
+}
+
+#blue {
+    background-color: #0066CC;
+    color: #FFFFFF;
+    border-radius: 24px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
+
+#blue:hover {
+    background-color: #007ECC;
+}
+
+@media screen and (max-width: 735px) and (min-width: 0px) {
+    .section-2 {
+        height: 300px;
+    }
+
+    .section-2 h1 {
+        font-size: 22px;
+    }
+
+    .section-2 p {
+        font-size: 24px;
+    }
+
+    #mac_book {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+.section-3 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    align-content: center;
+    margin-top: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.section-3 h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.section-3 p {
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding: 0;
+}
+
+.section-3 button {
+    border: 1px solid #0066CC;
+    border-radius: 24px;
+    color: #0066CC;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding: 10px 20px 10px 20px;
+    transition: 0.25s all;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.section-3 button:hover {
+    background-color: #0066CC;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 735px) and (min-width: 0px) {
+    .section-3 {
+        height: 300px;
+    }
+
+    .section-3 h1 {
+        font-size: 22px;
+    }
+
+    .section-3 p {
+        font-size: 20px;
+    }
+
+    .third-img img {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3, 600px);
+    grid-gap: 20px;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #FAFAFA;
+}
+
+@media screen and (max-width: 735px) and (min-width: 0px) {
+    .cards {
+        grid-template-columns: 100%;
+        grid-template-rows: 450px;
+    }
+
+    .card {
+        height: 450px;
+    }
+}
+
+.card {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.card img {
+    width: 90%;
+}
+
+.btn {
+    border: 1px solid #0066CC;
+    border-radius: 24px;
+    color: #0066CC;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding: 10px 20px 10px 20px;
+    transition: 0.25s all;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background-color: #0066CC;
+    color: #FFFFFF;
+}
+
+.card-2 h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 5px;
+}
+
+.card-2 p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    padding: 0;
+    line-height: 15px;
+}
+
+#gray {
+    font-family: "Inter", sans-serif;
+    color: #6E6E73;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.card-3 h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 5px;
+}
+
+.card-3 p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    padding: 0;
+    line-height: 15px;
+}
+
+.card-4 {
+    background-image: url('./img/apple-vision.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.logos--apple {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 315'%3E%3Cpath d='M213.803 167.03c.442 47.58 41.74 63.413 42.197 63.615c-.35 1.116-6.599 22.563-21.757 44.716c-13.104 19.153-26.705 38.235-48.13 38.63c-21.05.388-27.82-12.483-51.888-12.483c-24.061 0-31.582 12.088-51.51 12.871c-20.68.783-36.428-20.71-49.64-39.793c-27-39.033-47.633-110.3-19.928-158.406c13.763-23.89 38.36-39.017 65.056-39.405c20.307-.387 39.475 13.662 51.889 13.662c12.406 0 35.699-16.895 60.186-14.414c10.25.427 39.026 4.14 57.503 31.186c-1.49.923-34.335 20.044-33.978 59.822M174.24 50.199c10.98-13.29 18.369-31.79 16.353-50.199c-15.826.636-34.962 10.546-46.314 23.828c-10.173 11.763-19.082 30.589-16.678 48.633c17.64 1.365 35.66-8.964 46.64-22.262'/%3E%3C/svg%3E");
+}
