@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+    background-color: #f6f5f4;
+  }
+
+  main {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    align-items: center;
+  }
+  
+  .wrap-block-main {
+    width: 90%;
+    height: 90px;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  
+  .filter-category {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .a1-category {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .a1-category .block-text {
+    background-color: #639B6D;
+    border-radius: 4px;
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .a2-category {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .a2-category .block-text {
+    background-color: rgba(99, 155, 109, 0.3);
+    border-radius: 4px;
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+    color: #639B6D;
+  }
+
+  .b1-category, .b2-category {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .b1-category .block-text {
+    background-color: rgba(196, 162, 76, 0.3);
+    border-radius: 4px;
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+    color: #C4A24C;
+  }
+
+  .b2-category .block-text {
+    background-color: rgba(196, 162, 76, 0.3);
+    border-radius: 4px;
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+    color: #C4A24C;
+  }
+
+  .c1-category, .c2-category {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .c1-category .c2-category, .block-text {
+    background-color: #CB5B434D;
+    border-radius: 4px;
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+    color: #CB5B43;
+  }
+
+  .preview {
+    width: 182px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .preview img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .wrap-block-main {
+    display: flex;
+    max-width: 1180px;
+    max-height: 84px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .preview-btn {
+    display: flex;
+    gap: 10px;
+    margin-right: 22px;
+    max-width: 384px;
+    max-height: 44px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #f-btn {
+    background-color: #F2D4DC;
+    color: #945069;
+    width: 146px;
+    height: 44px;
+    border-radius: 14px;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  #s-btn {
+    background-color: #C3DCE3;
+    color: #2B788B;
+    width: 178px;
+    height: 44px;
+    border-radius: 14px;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  #t-btn {
+    padding: 4px;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    background-color: #f6f5f4;
+    border: none;
+  }
+
+  #t-btn img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .section-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 926px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 0px 40px 0px 0px;
+    max-height: 273px;
+    margin-top: 40px;
+  }
+
+  .card img {
+    width: 337px;
+    height: 273px;
+    overflow: hidden;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .card-content-one {
+    width: 516px;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 30px;
+  }
+
+  .card-content-one button {
+    border: none;
+    background-color: #f6f5f4;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+  }
+
+  .card-content-one img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .card-content-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 516px;
+    height: 96px;
+  }
