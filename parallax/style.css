@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: url('./img/konoha_village.jpg');
+  background-attachment: fixed;
+  height: 670px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  z-index: 2;
+}
+
+.parallax-content {
+  z-index: 3;
+}
+
+.container h1 {
+  color: #FFFFFF;
+  font-size: 70px;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.2);
+}
+
+.page-content {
+  height: 600px;
+}
